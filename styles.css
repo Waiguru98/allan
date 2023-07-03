@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+}
+.header ul li a {
+    color: rgb(219, 234, 13);
+    text-decoration: none;
+}
+.header ul li:hover {
+    background-color: rgb(109, 107, 104);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+}
+.header {
+    background-color: rgb(41, 75, 25);
+    grid-column: 1/-1;
+}
+.section {
+    grid-column: 1/10;
+    background-color: aquamarine;
+}
+.sidebar {
+    grid-column: 10/-1;
+    background-color: rgb(89, 108, 102);
+}
+.footer {
+    text-align: center;
+    color: yellowgreen;
+    grid-column: 1/13;
+    background-color: rgb(41, 75, 25);
+    padding: 20px;
+}
