@@ -2,6 +2,7 @@
     <head>
         <title>Allan Website</title>
         <link rel="stylesheet" href="styles.css">
+        <script type="text/javascript" src="JS script.js"></script>
     </head>
     <body>
         <div class="container">
@@ -9,31 +10,57 @@
             <div class="header">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="Store.html">Store</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
 
             <div class="section">
-                <h1>Get Us At</h1>
-                <table border="1">
-                    <tr>
-                        <th colspan="2"><b>Our Social Handles</b></th>
-                    </tr>
-                    <tr>
-                        <td><b>Email:</b></td>
-                        <td><a href="waigurualla@gmailcom">My Mail</a></td>
-                    </tr>
-                    <tr>
-                        <td><b>Twitter:</b></td>
-                        <td><a href="twitter.com/allan">Allan</a></td>
-                    </tr>
-                    <tr>
-                        <td><b>WhatsApp Phone</b></td>
-                        <td>0129909282</td>
-                    </tr>
-                </table>
+                <div class="cont_page">
+                    <h1>Get Us At</h1>
+                    <div class="our_info">
+                        <table border="1">
+                            <tr>
+                                <th colspan="2"><b>Our Social Handles</b></th>
+                            </tr>
+                            <tr>
+                                <td><b>Email:</b></td>
+                                <td><a href="waigurualla@gmailcom">My Mail</a></td>
+                            </tr>
+                            <tr>
+                                <td><b>Twitter:</b></td>
+                                <td><a href="twitter.com/allan">Allan</a></td>
+                            </tr>
+                            <tr>
+                                <td><b>WhatsApp Phone</b></td>
+                                <td>0129909282</td>
+                            </tr>
+                            <tr>
+                                <td><b>Instagram</b></td>
+                                <td><a href="instagram.com/w.a.i">Allan waiguru</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h1>Contact Us</h1>
+                        <div class="contact_us">
+                            <p>Hello this is our help center, tell us about you and give a feedback</p>
+                            <br>
+                            <form name="contact_form" action="" onsubmit="return submit_Form()">
+                                <label for="name">Tell us your name:</label><input type="text" id="name"><br>
+                                <br>
+                                <label for="email">Enter Your Email Address:</label><input type="email" id="email"> <br>
+                                <br>
+                                <textarea name="" id="" cols="30" rows="8"></textarea>
+                                <br>
+                                <br>
+                                <input type="submit" value="Send Request"><br>
+                            </form>
+                        </div>
+                    </div>
+
+
+
 
 
 
